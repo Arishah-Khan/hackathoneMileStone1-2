@@ -5,11 +5,9 @@ function toggleAbout() {
     const fullPara: string = "I hold a Master's degree in Mathematics from Karachi University, which has honed my analytical thinking and problem-solving skills. In addition to my strong mathematical foundation, I am gaining hands-on experience in cutting-edge technologies through the Certified Cloud Applied Generative AI course, part of the Governor Sindh Pakistan Initiative. I am also diving deep into web and mobile app development at Saylani Mass IT Training. Proficient in TypeScript, HTML, and JavaScript, I am passionate about combining my skills in technology and mathematics to contribute to innovative projects.";
 
     if (shortPara.innerHTML === fullPara) {
-        // Showing the short paragraph
         shortPara.innerHTML = "I hold a Master's degree in Mathematics from Karachi University, with strong analytical thinking and problem-solving skills. Currently gaining hands-on experience in AI and web development.";
         toggleAboutBtn.innerText = "Read More";
     } else {
-        // Showing the full paragraph
         shortPara.innerHTML = fullPara;
         toggleAboutBtn.innerText = "Show Less";
     }

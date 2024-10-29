@@ -1,35 +1,30 @@
-/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styles */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
 }
 
-/* Container */
 .container {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
-/* Left Section */
 .left {
   flex: 1;
   padding: 20px;
-  background-color: #27384c;
+  background-color: #001174;
   color: #fff;
   border-radius: 10px;
   margin-right: 20px;
 }
 
-/* Right Section */
 .right {
   flex: 2;
   padding: 20px;
@@ -37,7 +32,6 @@ body {
   border-radius: 10px;
 }
 
-/* Profile Picture */
 header img {
   border-radius: 100%;
   display: block;
@@ -46,24 +40,20 @@ header img {
   height: auto;
 }
 
-/* Buttons */
 button {
   padding: 10px 20px;
-  font-size: 15px; 
+  font-size: 15px;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Header Styles */
 header {
   text-align: center;
 }
 
-/* About Me Section */
 #short-para {
   margin-bottom: 10px;
 }
 
-/* Lists */
 .lists {
   list-style: none;
 }
@@ -73,7 +63,7 @@ header {
 }
 
 /* Entries */
-.entry{
+.entry {
   margin-bottom: 10px
 }
 
@@ -81,14 +71,12 @@ header {
   font-weight: 400;
 }
 
-/* Project Title */
 .project-title {
   font-weight: bold;
   margin-top: 10px;
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container {
     flex-direction: column;
   }
@@ -104,8 +92,9 @@ header {
   width: 50%;
   height: 50%;
   margin: 0 auto;
-  border: 2px solid white;
+  border: 2px solid #EEEEF1;
   margin-bottom: 10px;
+  background-color: #f8fcff;
 }
 
 .about {
@@ -114,23 +103,25 @@ header {
   margin-bottom: 20px;
   padding: 10px;
 }
+
 #toggle-about {
   border: 2px solid white;
   color: white;
   border-radius: 10px;
   margin-top: 10px;
-  background-color: #356493;
+  background-color: #555A7B;
 }
 
 #toggle-about:hover {
-  background-color: #1c2a38;
+  background-color: #001174;
   color: white;
   border: 2px solid white;
 }
+
 .aboutMe {
   background-color: #f4f4f4;
   padding: 5px;
-  color: #27384c;
+  color: #001174;
   width: 90%;
   margin: 0 auto;
   border-top-right-radius: 15px;
@@ -138,70 +129,77 @@ header {
   font-weight: bold;
 
 }
-#short-para{
-    margin-top: 10px;
+
+#short-para {
+  margin-top: 10px;
 }
 
-.contactMe{
-    background-color: #f4f4f4;
-    padding: 5px;
-    color: #27384c;
-    width: 80%;
-    margin: 0 auto;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.contact{
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-.fas{
-    border-radius: 20px;
-    background-color: white;
-    color: #1c2a38;
-    font-size: 18px;
-    padding: 5px;
-    margin-right: 10px;
-}
-@media (min-width: 768px) and (max-width: 924px) {
-  .icon{
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
-}
-
-.skills{
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-.skillList{
+.contactMe {
   background-color: #f4f4f4;
   padding: 5px;
-  color: #27384c;
+  color: #001174;
   width: 80%;
   margin: 0 auto;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   font-weight: bold;
   margin-bottom: 20px;
-
 }
-.experience{
+
+.contact {
   text-align: center;
   font-size: 14px;
   margin-bottom: 10px;
   padding: 10px;
 }
-.expList{
+
+.fas {
+  border-radius: 20px;
+  background-color: white;
+  color: #001174;
+  font-size: 18px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+@media (min-width: 800px) and (max-width: 924px) {
+  .icon {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+
+.skills {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.skillList {
   background-color: #f4f4f4;
   padding: 5px;
-  color: #27384c;
+  color: #001174;
+  width: 80%;
+  margin: 0 auto;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.experience {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.expList {
+  background-color: #f4f4f4;
+  padding: 5px;
+  color: #001174;
   width: 80%;
   margin: 0 auto;
   border-top-right-radius: 10px;
@@ -209,164 +207,173 @@ header {
   font-weight: bold;
   margin-bottom: 20px;
 }
-.para{
+
+.para {
   text-align: center;
   font-size: 16px;
   padding: 5px;
   font-weight: bold;
 }
 
-#toggle-experience{
+#toggle-experience {
   border: 2px solid white;
   color: white;
   border-radius: 10px;
   margin-top: 10px;
-  background-color: #356493;;
+  background-color: #555A7B;
 }
 
 #toggle-experience:hover {
-  background-color: #1c2a38;
+  background-color: #001174;
   color: white;
   border: 2px solid white;
 }
 
-.name{
+.name {
   font-weight: bold;
   margin-bottom: 10px;
   padding: 10px;
-  color: #27384c;
+  color: #001174;
   margin-top: 40px;
   margin-left: 30px;
 }
-.myName{
+
+.myName {
   font-weight: bolder;
   font-size: 40px;
 }
-.frontend{
+
+.frontend {
   font-size: 25px;
   font-weight: 700;
   padding-left: 10px;
 }
 
-.educationHeading{
+
+.educationHeading {
   font-weight: bold;
   margin-bottom: 10px;
   padding: 5px 15px;
-  background-color: #1c2a38;
+  background-color: #001174;
   color: white;
-  width: 40%;
+  width: 50%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  margin-top: 90px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
-.institution{
+.institution {
   font-size: 14px
 }
 
-#toggle-education{
+#toggle-education {
   border: 2px solid black;
   color: #f8fcff;
   border-radius: 10px;
   margin-top: 10px;
-  background-color: #356493;
+  background-color: #555A7B;
   text-align: center;
 }
 
 #toggle-education:hover {
   background-color: white;
-  color: #1c2a38;
-  border: 2px solid #1c2a38;
+  color: #001174;
+  border: 2px solid #001174;
 
 }
 
-.projectHeading{
+.projectHeading {
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 5px 15px;
-  background-color: #1c2a38;
+  background-color: #001174;
   color: white;
-  width: 40%;
+  width: 50%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
-.project-title{
+.project-title {
   font-size: 16px;
   padding: 10px;
   font-weight: bold;
 
 }
 
-span{
+span {
   font-weight: bold;
   color: #293a4d;
   font-size: 15px;
 }
-.project{
+
+.project {
   font-size: 13px;
   padding: 10px;
   list-style-type: none;
 }
 
-#toggle-projects{
+#toggle-projects {
   border: 2px solid black;
   color: #f8fcff;
   border-radius: 10px;
   margin-top: 10px;
-  background-color: #356493;
+  background-color: #555A7B;
   text-align: center;
 }
 
 #toggle-projects:hover {
   background-color: white;
-  color: #1c2a38;
-  border: 2px solid #1c2a38;
+  color: #001174;
+  border: 2px solid #001174;
 }
-.names{
+
+.names {
   display: none;
 }
 
-@media (max-width: 768px) {
-  .name{
+@media (max-width: 800px) {
+  .name {
     display: none;
   }
-  .names{
+
+  .names {
     display: block;
     margin-bottom: 15px;
   }
-  .myName{
+
+  .myName {
     font-size: 30px;
   }
-  .frontend{
+
+  .frontend {
     font-size: 20px
   }
 
   .left {
     flex: 1;
     padding: 0px;
-    background-color: #27384c;
+    background-color: #001174;
     color: #fff;
- border-radius: 0px;
+    border-radius: 0px;
     margin: 0px;
 
   }
-  
-  /* Right Section */
+
   .right {
     flex: 1;
     padding: 0px;
-    background-color: #27384c;
-   border-radius: 0px;
+    background-color: #001174;
+    border-radius: 0px;
     margin: 0px;
     padding-bottom: 30px;
   }
 
-  .educationHeading{
+  .educationHeading {
     background-color: #f4f4f4;
     padding: 5px;
-    color: #27384c;
+    color: #001174;
     width: 80%;
     margin: 0 auto;
     font-weight: bold;
@@ -374,13 +381,14 @@ span{
     text-align: center;
     font-size: 17px;
     border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
-  .institution{
+
+  .institution {
     text-align: center;
-  font-size: 14px;
-  padding: 5px;
-  color: white;
+    font-size: 14px;
+    padding: 5px;
+    color: white;
   }
 
   #toggle-education {
@@ -388,21 +396,23 @@ span{
     color: white;
     border-radius: 10px;
     margin-top: 10px;
-    background-color: #356493;
+    background-color: #555A7B;
   }
-  
+
   #toggle-education:hover {
-    background-color: #1c2a38;
+    background-color: #001174;
     color: white;
     border: 2px solid white;
   }
-  .eduDiv{
+
+  .eduDiv {
     text-align: center;
   }
-  .projectHeading{
+
+  .projectHeading {
     background-color: #f4f4f4;
     padding: 5px;
-    color: #27384c;
+    color: #001174;
     width: 80%;
     margin: 0 auto;
     font-weight: bold;
@@ -411,43 +421,51 @@ span{
     margin-top: 20px;
     font-size: 17px;
     border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
-  .project,.project-title,span{
+  .project,
+  .project-title,
+  span {
     text-align: center;
     font-size: 14px;
     color: white;
   }
-span{
-  text-decoration: underline;
-  font-weight: bold;
-}
+
+  span {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
   #toggle-projects {
     border: 2px solid white;
     color: white;
     border-radius: 10px;
     margin-top: 10px;
-    background-color: #356493;
+    background-color: #555A7B;
   }
-  
+
   #toggle-projects:hover {
-    background-color: #1c2a38;
+    background-color: #001174;
     color: white;
     border: 2px solid white;
   }
-  a{
+
+  a {
     color: yellowgreen
   }
-  a:visited{
+
+  a:visited {
     color: yellow
   }
-  .container{
+
+  .container {
     margin: 0;
     padding: 0px;
   }
-  header{
+
+  header {
     padding-top: 20px;
   }
-  
+
 }
