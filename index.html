@@ -12,154 +12,136 @@
 </head>
 
 <body>
+    <div id="resumeOutput">
+
+
     <div class="container">
         <div class="left">
-            <header>
-                <div class="names">
-                    <h1 class="myName">Arishah Khan</h1>
-                    <h4 class="frontend">Front-End Developer</h4>
-                </div>
-                <div>
-                    <img src="image/profile.png" alt="Profile Picture" class="img">
-                </div>
-            </header>
 
-            <div class="about">
-                <h2 class="aboutMe">About Me</h2>
-                <p id="short-para">
+            <div class="resume"><img src="image/profile.png" alt="Profile Image"
+                    style="max-width: 200px; height: auto; border-radius: 50%; margin-bottom: 20px;" class="img">
+            </div>
+            <div>
+                <h3 class="setWidth">About Me</h3>
+                <p class="sizeChange" id="short-para">
                     I hold a Master's degree in Mathematics from Karachi University, with strong analytical thinking and
-                    problem-solving skills. Currently gaining hands-on experience in AI and web development.
+                    problem-solving skills. Currently gaining hands-on experience in AI and web development.</p>
+
+               <div class="read"><button id="toggle-about" onclick="toggleAbout()">Read More</button></div>
+
+            </div>
+            <div>
+                <h3 class="setWidth">Contact Information</h3>
+
+                <p class="sizeChange"><strong><i class="fas fa-phone"></i> Phone Number:</strong>+92-333-444-5555</p>
+                <p class="sizeChange"><strong><i class="fas fa-envelope"></i> Email:</strong>
+                    arishahsanaullah78@gmail.com</p>
+                <p class="sizeChange"><strong><i class="fas fa-regular fa-address-card"></i> Adress:</strong>123 Main St, City, State, Zip
                 </p>
-                <button id="toggle-about" onclick="toggleAbout()">Read More</button>
+                <p class="sizeChange"><strong><i class="fab fa-linkedin"></i> LinkedIn:</strong> <a
+                        href="https://www.linkedin.com/in/arishah-khan-b606092b8/"
+                        target="_blank">https://www.linkedin.com/in/arishah-khan-b606092b8/</a></p>
+                <p class="sizeChange"><strong><i class="fab fa-github"></i> GitHub:</strong> <a
+                        href="https://github.com/Arishah-Khan" target="_blank">https://github.com/Arishah-Khan</a></p>
+                <p class="sizeChange"><strong><i class="fas fa-globe"></i> Website:</strong> <a
+                        href="https://arishah-khan-portfolio.vercel.app/"
+                        target="_blank">https://arishah-khan-portfolio.vercel.app/</a></p>
             </div>
-            <!-- Contact Information -->
-            <div class="contact">
-                <h3 class="contactMe">Contact Information</h3>
-                <ul class="lists">
-                    <li class="icon"><i class="fas fa-phone"></i> +92-333-444-5555</li>
-                    <li class="icon"><i class="fas fa-envelope"></i> arishahsanaullah78@gmail.com</li>
-                    <li class="icon"><i class="fas fa-map-marker-alt"></i> 123 Main St, City, State, Zip</li>
-                </ul>
-            </div>
-            <div class="skills">
-                <!-- Skills Section -->
-                <h3 class="skillList">Skills</h3>
-                <ul class="lists">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Bootstrap</li>
-                    <li>Microsoft PowerPoint</li>
-                    <li>GitHub</li>
-                    <li>Web Design</li>
-                    <li>Web Development</li>
+
+            <div>
+                <h3 class="setWidth">Languages</h3>
+                <ul>
+                    <li class="sizeChange">English</li>
+                    <li class="sizeChange">Urdu</li>
+                    <li class="sizeChange">Pashto</li>
                 </ul>
             </div>
 
-            <div class="experience">
-                <!-- Experience Section -->
-
-                <h3 class="expList">Experience</h3>
-                <div id="experience">
-                    <p class="para">Private Tutor</p>
-                    <p class="para">2021-2023</p>
-
-                    <p>Provided personalized tutoring for students across multiple subjects, including mathematics,
-                        science, and languages.</p>
-                </div>
-
-                <button id="toggle-experience" onclick="experienceBtn() ">Hide Experience</button>
-
+            <div>
+                <h3 class="setWidth">Skills</h3>
+                <ul class="lists">
+                    <li class="sizeChange">HTML</li>
+                    <li class="sizeChange">CSS</li>
+                    <li class="sizeChange">JavaScript</li>
+                    <li class="sizeChange">TypeScript</li>
+                    <li class="sizeChange">Bootstrap</li>
+                    <li class="sizeChange">GitHub</li>
+                    <li class="sizeChange">Web Design</li>
+                    <li class="sizeChange">Web Development</li>
+                </ul>
             </div>
+
 
         </div>
 
+
         <div class="right">
-
-            <div class="name">
-                <h1 class="myName">Arishah Khan</h1>
-                <h4 class="frontend">Front-End Developer</h4>
+            <div class="bgColor">
+                <h3 class="nameHeading">Arishah Khan</h3>
+                <div class="styleline"></div>
+                <h5 class="sub">Full Stack Developer</h5>
             </div>
-            <!-- Education Section -->
-            <div class="eduDiv">
-                <h3 class="educationHeading">Education</h3>
-                <div id="education">
-                    <div class="entry">
-                        <div class="institution">Master's Degree in Mathematics</div>
-                        <div class="institution">Karachi University, Karachi</div>
+            <div class="paddingSet">
+                <div>
+                    <h3 class="nameHeadingStyle">Education</h3>
+                    <div class="styleline"></div>
+
+                    <div id="education">
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> Master's Degree in Mathematics</div>
+                            <div class="instituteStyle">Karachi University, Karachi</div>
+                            <div class="instituteStyle">2020-2022</div>
+                        </div>
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> Bachelor's Degree in Science</div>
+                            <div class="instituteStyle">DJ Sindh Government Science College, Karachi</div>
+                            <div class="instituteStyle">2018-2020</div>
+                        </div>
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> Intermediate (Pre-Engineering)</div>
+                            <div class="instituteStyle">KMA Girls Degree College, Karachi</div>
+                            <div class="instituteStyle">2016-2018</div>
+                        </div>
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> Matriculation</div>
+                            <div class="instituteStyle">Al-Hamd Grammar School, Karachi</div>
+                            <div class="instituteStyle">2014-2016</div>
+                        </div>
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> Certification in Cloud Applied Generative AI</div>
+                            <div class="instituteStyle">Governor Sindh Pakistan Initiative</div>
+                            <div class="instituteStyle">Ongoing</div>
+                        </div>
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> Web and Mobile App Development Program</div>
+                            <div class="instituteStyle">Saylani Mass IT Training</div>
+                            <div class="instituteStyle">Ongoing</div>
+                        </div>
                     </div>
-                    <div class="entry">
-                        <div class="institution">Bachelor's Degree in Science</div>
-                        <div class="institution">DJ Sindh Government Science College, Karachi</div>
-                    </div>
-                    <div class="entry">
-                        <div class="institution">Intermediate (Pre-Engineering)</div>
-                        <div class="institution">KMA Girls Degree College, Karachi</div>
-                    </div>
-                    <div class="entry">
-                        <div class="institution">Matriculation</div>
-                        <div class="institution">Al-Hamd Grammar School, Karachi</div>
-                    </div>
-                    <div class="entry">
-                        <div class="institution">Certification in Cloud Applied Generative AI</div>
-                        <div class="institution">Governor Sindh Pakistan Initiative</div>
-                        <div class="institution">Ongoing</div>
-                    </div>
-                    <div class="entry">
-                        <div class="institution">Web and Mobile App Development Program</div>
-                        <div class="institution">Saylani Mass IT Training</div>
-                        <div class="institution">Ongoing</div>
-                    </div>
+                    <button id="toggle-education" onclick="educationBtn()">Hide Education</button>
                 </div>
-                <button id="toggle-education" onclick="educationBtn()">Hide Education</button>
+                <div>
+                    <h3 class="nameHeadingStyle">Work Experience</h3>
+                    <div class="styleline"></div>
 
-            </div>
-            <div class="eduDiv">
-                <!-- Projects Section -->
-                <h3 class="projectHeading">Projects</h3>
-                <div id="projects">
-                    <!-- HTML, CSS, and JavaScript Projects -->
-                    <div>
-                        <p class="project-title">HTML, CSS, and JavaScript Projects</p>
-                        <ul>
-                            <li class="project"><span>Simple Calculator:</span> A basic calculator with arithmetic
-                                operations. <a href="https://arishah-khan.github.io/Calculator-javascript/"
-                                    target="_blank">View Project</a></li>
-                            <li class="project"><span>Scientific Calculator:</span> An advanced calculator with
-                                trigonometric functions, logarithms, and exponentiation. <a
-                                    href="https://arishah-khan.github.io/Calculator-javascript/" target="_blank">View
-                                    Project</a></li>
-                            <li class="project"><span>My Post Application:</span> A content management app with user
-                                authentication and post management. <a href="https://arishah-khan.github.io/My-Post/"
-                                    target="_blank">View Project</a>
-                            </li>
-                            <li class="project"><span>To-Do App:</span> A task management app with javaascript.
-                                <a href="https://arishah-khan.github.io/Todo-App/" target="_blank">View Project</a>
-                            </li>
-                        </ul>
+                    <div class="educationSection" id="experience">
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> Private Tutor</div>
+                            <div class="instituteStyle">2021-2023</div>
+                            <div class="instituteStyle">Provided personalized tutoring for students across multiple subjects, including mathematics, science, and languages.</div>
+                        </div>
+                        <div class="educationField">
+                            <div class="degreeStyle"><span class="diamond"></span> ABC Company</div>
+                            <div class="instituteStyle">2024</div>
+                            <div class="instituteStyle">Web Developer</div>
+                        </div>        
                     </div>
-
-                    <!-- HTML and CSS Projects -->
-                    <div>
-                        <p class="project-title">HTML and CSS Projects</p>
-                        <ul>
-                            <li class="project"><span>HTML/CSS Website:</span> A pixel-perfect static website based on
-                                Figma design. <a href="https://arishah-khan.github.io/HTML-CSS-BOOTSTRAP-Hackhathon/"
-                                    target="_blank">View Project</a> | <a
-                                    href="https://arishah-khan.github.io/Assignment-4-bootsrap/" target="_blank">View
-                                    Project</a></li>
-                        </ul>
-                    </div>
+                    <button id="toggle-experience" onclick="experienceBtn()">Hide Experience</button>
                 </div>
-
-                <button id="toggle-projects" onclick="projectsBtn()">Hide Projects</button>
-
             </div>
         </div>
     </div>
-
+    </div>
     <script src="main.js"></script>
 </body>
-
 </html>
