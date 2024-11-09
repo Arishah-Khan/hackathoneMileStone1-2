@@ -13,9 +13,10 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: rgb(237, 232, 232); 
   color: #333;
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 1280px;
+  margin: auto;
 }
 
 button {
@@ -37,9 +38,6 @@ button:hover {
 
 }
 
-button:active {
-  background-color: #4e4e46; 
-}
 .read{
   text-align: center;
 }
@@ -73,9 +71,6 @@ h2 {
 .experienceField {
   margin-bottom: 20px;
 }
-
-
-
 .profilePicContainer {
   text-align: center; 
   margin-bottom: 20px; 
@@ -171,6 +166,7 @@ h4 {
   padding: 20px; 
   background-color: #464543;
   color: #fff;
+  max-width: 310px;
 }
 
 .right {
